@@ -1,0 +1,27 @@
+body {
+	display: flex;
+	justify-content: center;
+	background-color: #121212;
+	color: #e6e6e6;
+	font-family: 'Roboto', monospace;
+	margin: 0;
+	padding: 0;
+}
+
+a:link, a:visited {
+	color: #00bcd4;
+	text-decoration: none;
+}
+
+.container.content {
+	--margin: 5em;
+	--padding: 1em;
+	box-sizing: border-box;
+	max-width: 40em;
+	margin-top: var(--margin);
+	margin-bottom: var(--margin);
+	background-color: #292929;
+	border-radius: 0.5em;
+	padding: var(--padding);
+	min-height: calc(100vh - (2 * var(--margin)));
+}
