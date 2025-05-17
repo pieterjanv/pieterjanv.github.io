@@ -1,0 +1,19 @@
+* {
+  font: 1em "Fira Sans", monospace
+}
+
+section {
+  margin: 0.3em 0.7em;
+}
+
+h1 {
+  font-size: 1.2em;
+}
+
+li {
+  margin-bottom: 0.4em;
+}
+
+p {
+  margin: 0.25em 0 0.4em 0;
+}
